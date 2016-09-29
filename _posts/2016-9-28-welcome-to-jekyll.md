@@ -1,16 +1,24 @@
 ---
 layout: post
-title: Welcome to Jekyll!
+title: Welcome to jpa.io!
 featured: true
 author: jacob
 ---
 
 
-# Hello World
+# Moving to Jekyll
 
-This is a test post.
-I wonder what this will look like.
+If you're reading this, then you've caught me while
+I'm in the middle of migrating my blog from my old
+Django site to a static site generated via Jekyll.
 
-#### Section header
+Be sure to check back later,
 
-Heya there, ....
+Thanks
+
+
+#### Section header test 4
+
+### Section header test 3
+
+## Section header test 2
