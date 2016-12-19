@@ -6,20 +6,20 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import 'main';
 
-div.sidebar {
+div.sidebar, div.off-canvas-content {
   background-color: #351C75;
 }
 
 h1.sidebar__logo a {
-  color: gray;
+  color: white;
 }
 
 ul.list-bare li a {
-  color: gray;
+  color: white;
 }
 
 div.icon {
-  fill: gray;
+  fill: white;
 }
 
 div.font-tiny {
