@@ -3,6 +3,7 @@ layout: post
 title: Welcome to jpa.io
 featured: true
 author: jacob
+image: '/images/posts/jekyll-logo.png'
 ---
 
 
