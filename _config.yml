@@ -10,7 +10,7 @@ title:            Jacob Adkins
 email:            jacobpadkins@gmail.com
 description:      
 baseurl:          '' # The subpath of your site, e.g. /blog
-url:              'jpa.io' # The base hostname & protocol for your site
+url:              'http://jpa.io' # The base hostname & protocol for your site
 github_username:  jpadkins
 twitter_username: JacobPaulAdkins
 
