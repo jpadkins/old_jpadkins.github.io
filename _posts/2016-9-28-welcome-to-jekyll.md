@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome to jpa.io!
+title: Welcome to jpa.io
 featured: true
 author: jacob
 ---
@@ -15,10 +15,3 @@ Django site to a static site generated via Jekyll.
 Be sure to check back later,
 
 Thanks
-
-
-#### Section header test 4
-
-### Section header test 3
-
-## Section header test 2
