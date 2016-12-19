@@ -5,3 +5,23 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import 'main';
+
+div.sidebar {
+  background-color: #351C75;
+}
+
+h1.sidebar__logo a {
+  color: white;
+}
+
+a.page-link {
+  color: white;
+}
+
+div.icon {
+  fill: white;
+}
+
+div.font-tiny {
+  color: white;
+}
