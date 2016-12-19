@@ -1,13 +1,10 @@
 ---
 layout: post
-title: Welcome to jpa.io
+title: Moving to Jekyll
 featured: true
 author: jacob
 image: '/images/posts/jekyll-logo.png'
 ---
-
-
-# Moving to Jekyll
 
 If you're reading this, then you've caught me while
 I'm in the middle of migrating my blog from my old
