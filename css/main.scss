@@ -23,6 +23,14 @@ ul.list-bare li a {
   border-bottom-color: #fabd2f;
 }
 
+div.icon--ei-star {
+  display: none !important;
+}
+
+div.share-list__icon {
+  fill: #282828 !important;
+}
+
 .social-nav .icon, div.icon {
   fill: #ebdbb2;
 }
