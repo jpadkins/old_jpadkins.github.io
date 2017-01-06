@@ -12,4 +12,10 @@ Django site to a static site generated via Jekyll.
 
 Be sure to check back later,
 
+{% highlight rust %}
+fn main() {
+  println!("This is a test of the syntax hightlighting.");
+}
+{% endhighlight %}
+
 Thanks

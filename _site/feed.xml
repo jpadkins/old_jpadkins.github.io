@@ -3,33 +3,29 @@
   <channel>
     <title>Jacob Adkins</title>
     <description></description>
-    <link>https://east-jekyll.aerobatic.io/</link>
-    <atom:link href="https://east-jekyll.aerobatic.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Sep 2016 08:35:04 -0500</pubDate>
-    <lastBuildDate>Thu, 29 Sep 2016 08:35:04 -0500</lastBuildDate>
+    <link>http://jpa.io/</link>
+    <atom:link href="http://jpa.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 05 Jan 2017 21:28:41 -0600</pubDate>
+    <lastBuildDate>Thu, 05 Jan 2017 21:28:41 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>Welcome to jpa.io!</title>
-        <description>&lt;h1 id=&quot;moving-to-jekyll&quot;&gt;Moving to Jekyll&lt;/h1&gt;
-
-&lt;p&gt;If you’re reading this, then you’ve caught me while
+        <title>Moving to Jekyll</title>
+        <description>&lt;p&gt;If you’re reading this, then you’ve caught me while
 I’m in the middle of migrating my blog from my old
 Django site to a static site generated via Jekyll.&lt;/p&gt;
 
 &lt;p&gt;Be sure to check back later,&lt;/p&gt;
 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nd&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;p&gt;Thanks&lt;/p&gt;
-
-&lt;h4 id=&quot;section-header-test-4&quot;&gt;Section header test 4&lt;/h4&gt;
-
-&lt;h3 id=&quot;section-header-test-3&quot;&gt;Section header test 3&lt;/h3&gt;
-
-&lt;h2 id=&quot;section-header-test-2&quot;&gt;Section header test 2&lt;/h2&gt;
 </description>
-        <pubDate>Wed, 28 Sep 2016 00:00:00 -0500</pubDate>
-        <link>https://east-jekyll.aerobatic.io/2016/09/28/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">https://east-jekyll.aerobatic.io/2016/09/28/welcome-to-jekyll/</guid>
+        <pubDate>Sun, 18 Dec 2016 00:00:00 -0600</pubDate>
+        <link>http://jpa.io/2016/12/18/moving-to-jekyll/</link>
+        <guid isPermaLink="true">http://jpa.io/2016/12/18/moving-to-jekyll/</guid>
         
         
       </item>

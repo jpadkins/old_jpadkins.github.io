@@ -7,21 +7,25 @@
 @import 'main';
 
 div.sidebar, div.off-canvas-content {
-  background-color: #351C75;
+  background-color: #282828;
+}
+
+.sidebar__description, .navigation {
+    border-bottom: 1px solid #fabd2f;
 }
 
 h1.sidebar__logo a {
-  color: white;
+  color: #ebdbb2;
 }
 
 ul.list-bare li a {
-  color: white;
+  color: #ebdbb2;
 }
 
 .social-nav .icon, div.icon {
-  fill: white;
+  fill: #ebdbb2;
 }
 
 div.font-tiny {
-  color: white;
+  color: #ebdbb2;
 }
