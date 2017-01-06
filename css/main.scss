@@ -10,8 +10,8 @@ div.sidebar, div.off-canvas-content {
   background-color: #282828;
 }
 
-.sidebar__description, .navigation {
-    border-bottom: 1px solid #fabd2f;
+.sidebar__description, nav.navigation {
+  border-bottom-color: #fabd2f;
 }
 
 h1.sidebar__logo a {
@@ -20,6 +20,7 @@ h1.sidebar__logo a {
 
 ul.list-bare li a {
   color: #ebdbb2;
+  border-bottom-color: #fabd2f;
 }
 
 .social-nav .icon, div.icon {
