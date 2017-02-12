@@ -18,8 +18,8 @@ image: '/images/posts/workspace.png'
 
 [Video demonstration](https://www.youtube.com/watch?v=4eWPFaA1nwE)
 
-This is an implementation of the superimposed-graphics-over-a-tracked-face
-effect from mobile apps such as Snapchat. It's not fancy, however.
+This is an implementation of a simple superimposed-graphics-over-a-tracked-face
+effect from mobile apps such as Snapchat.
 
 - - -
 
@@ -28,11 +28,10 @@ effect from mobile apps such as Snapchat. It's not fancy, however.
 
 [Link to motion data capture/processing](https://github.com/jpadkins/BoxFitSimpleTrainingApp/blob/master/BoxFitTrainingApp/MotionHandler.swift)
 
-Sadly, I do not have a video demonstration of this. BoxFit allowed its users
-to perfect four boxing moves: Jab, Uppercut, Block and Hook, but comparing their
-arm movements while wearing their smartphone on a sports strap on their arm to
-a model we had trained. The server side was implemented with Python Tornado as
-the server and scikit-learn to handle the training.
+BoxFit allowed its users to perfect four boxing moves: Jab, Uppercut, Block and
+Hook, but comparing their arm movements while wearing their smartphone on a sports
+strap on their arm to a model we had trained. The server side was implemented with
+Python Tornado as the server and scikit-learn to handle the training.
 
 - - -
 
@@ -154,6 +153,5 @@ of my recent App, to show which libraries I am most familiar with.
 [Gemfile](https://github.com/jpadkins/jpadkins.github.io/blob/master/_misc/Gemfile)
 
 <br>
-
 
 Other languages I am proficient in are Rust (which I've contributed to), Lua, and PHP.

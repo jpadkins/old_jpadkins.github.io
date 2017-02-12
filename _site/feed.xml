@@ -5,8 +5,8 @@
     <description></description>
     <link>http://jpa.io/</link>
     <atom:link href="http://jpa.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Feb 2017 10:41:56 -0600</pubDate>
-    <lastBuildDate>Sun, 12 Feb 2017 10:41:56 -0600</lastBuildDate>
+    <pubDate>Sun, 12 Feb 2017 14:14:24 -0600</pubDate>
+    <lastBuildDate>Sun, 12 Feb 2017 14:14:24 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -23,8 +23,8 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=4eWPFaA1nwE&quot;&gt;Video demonstration&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;This is an implementation of the superimposed-graphics-over-a-tracked-face
-effect from mobile apps such as Snapchat. It’s not fancy, however.&lt;/p&gt;
+&lt;p&gt;This is an implementation of a simple superimposed-graphics-over-a-tracked-face
+effect from mobile apps such as Snapchat.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -33,11 +33,10 @@ effect from mobile apps such as Snapchat. It’s not fancy, however.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/BoxFitSimpleTrainingApp/blob/master/BoxFitTrainingApp/MotionHandler.swift&quot;&gt;Link to motion data capture/processing&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Sadly, I do not have a video demonstration of this. BoxFit allowed its users
-to perfect four boxing moves: Jab, Uppercut, Block and Hook, but comparing their
-arm movements while wearing their smartphone on a sports strap on their arm to
-a model we had trained. The server side was implemented with Python Tornado as
-the server and scikit-learn to handle the training.&lt;/p&gt;
+&lt;p&gt;BoxFit allowed its users to perfect four boxing moves: Jab, Uppercut, Block and
+Hook, but comparing their arm movements while wearing their smartphone on a sports
+strap on their arm to a model we had trained. The server side was implemented with
+Python Tornado as the server and scikit-learn to handle the training.&lt;/p&gt;
 
 &lt;hr /&gt;
 
