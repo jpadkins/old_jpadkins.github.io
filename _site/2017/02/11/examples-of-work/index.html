@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Moving to Jekyll</title>
-  <meta name="description" content="If you’re reading this, then you’ve caught me whileI’m in the middle of migrating my blog from my oldDjango site to a static site generated via Jekyll.">
+  <title>Examples of Work</title>
+  <meta name="description" content="Hello! The following are a few examples of my work:">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://jpa.io/2016/12/18/moving-to-jekyll/">
+  <link rel="canonical" href="http://jpa.io/2017/02/11/examples-of-work/">
   <link rel="alternate" type="application/rss+xml" title="Jacob Adkins" href="http://jpa.io/feed.xml">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400" rel="stylesheet">
   <script>
@@ -145,33 +145,166 @@
   <div class="row row--full">
 
     <div class="column column--center medium-12 large-12">
-      <div class="grey-bg CoverImage FlexEmbed FlexEmbed--16by9" style="background-image: url(/images/posts/jekyll-logo.png)"></div>
+      <div class="grey-bg CoverImage FlexEmbed FlexEmbed--16by9" style="background-image: url(/images/posts/workspace.png)"></div>
     </div>
 
     <div class="column column--center medium-12 large-11">
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
         
-          <meta itemprop="og:image" content="http://jpa.io/images/posts/jekyll-logo.png">
+          <meta itemprop="og:image" content="http://jpa.io/images/posts/workspace.png">
         
 
         <header class="post__header">
-          <h2 class="post__title" itemprop="name headline">Moving to Jekyll</h2>
-          <time class="post__date" datetime="2016-12-18T00:00:00-06:00" itemprop="datePublished">Dec 18, 2016</time>
+          <h2 class="post__title" itemprop="name headline">Examples of Work</h2>
+          <time class="post__date" datetime="2017-02-11T00:00:00-06:00" itemprop="datePublished">Feb 11, 2017</time>
         </header>
 
         <div class="post-content" itemprop="articleBody">
-          <p>If you’re reading this, then you’ve caught me while
-I’m in the middle of migrating my blog from my old
-Django site to a static site generated via Jekyll.</p>
+          <h4 id="centerhello-the-following-are-a-few-examples-of-my-workcenter"><center>Hello! The following are a few examples of my work:</center></h4>
+<p><br /></p>
 
-<p>Be sure to check back later,</p>
+<h3 id="ios"><strong>iOS</strong></h3>
 
-<figure class="highlight"><pre><code class="language-rust" data-lang="rust"><span class="k">fn</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-  <span class="nd">println!</span><span class="p">(</span><span class="s">"This is a test of the syntax hightlighting."</span><span class="p">);</span>
-<span class="p">}</span></code></pre></figure>
+<hr />
 
-<p>Thanks</p>
+<h5 id="snapchat-filters-implementation">Snapchat Filters Implementation</h5>
+
+<p><a href="https://github.com/Lorsen/ImageLab/tree/Lab_4">Github link</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=4eWPFaA1nwE">Video demonstration</a></p>
+
+<p>This is an implementation of the superimposed-graphics-over-a-tracked-face
+effect from mobile apps such as Snapchat. It’s not fancy, however.</p>
+
+<hr />
+
+<h5 id="ml-boxing-app-boxfit">ML Boxing App “BoxFit”</h5>
+
+<p><a href="https://github.com/Lorsen/BoxFit/tree/master/BoxFit">Github link</a></p>
+
+<p>Sadly, I do not have a video demonstration of this. BoxFit allowed its users
+to perfect four boxing moves: Jab, Uppercut, Block and Hook, but comparing their
+arm movements while wearing their smartphone on a sports strap on their arm to
+a model we had trained. The server side was implemented with Python Tornado as
+the server and scikit-learn to handle the training.</p>
+
+<hr />
+
+<p><br /></p>
+
+<h3 id="c"><strong>C</strong></h3>
+
+<hr />
+
+<h5 id="research-on-kernel-space-io-performance">Research on Kernel Space I/O Performance</h5>
+
+<p><a href="https://github.com/jpadkins/KernelSpaceIO">Github link</a></p>
+
+<p>For research in my Operating Systems class, I wanted to find out just how much slower
+(or faster?) I/O operations would be from the kernelspace, so I wrote the same I/O program
+as closely as I could in both Modern C and a Kernel Module and benchmarked them.</p>
+
+<p><br /></p>
+
+<h3 id="c-1"><strong>C++</strong></h3>
+
+<hr />
+
+<h5 id="tsdc-parser">TSDC Parser</h5>
+<p><a href="https://github.com/jpadkins/sdc_parser">Github link</a></p>
+
+<p>This small program was made to run continuously on the machines
+which operated industrial printers. I included it on here because</p>
+
+<ol>
+  <li>It is coupled tightly with sqlite3’s C-api, but I made use of modern
+C++11 techniques to improve code visability.</li>
+  <li>It was written to be maintainable by another individual who would
+come onboard long after I had left and whose skill level I did not know,
+so I described very clearly what action every line performed. (This was
+before I was familiar with in-code-documentation generators)</li>
+</ol>
+
+<hr />
+
+<h5 id="graphical-terminal-emulator">Graphical Terminal Emulator</h5>
+<p><a href="https://github.com/jpadkins/GlyphRendererEngine/blob/master/old/src_old4/GLYF/Renderer.hpp">Github link to render logic file</a></p>
+
+<p>This was an old attempt at creating a graphical terminal emulator. I wanted
+to make a terminal emulator with OpenGL that would support flashy text effects,
+and when I put the project down I had succeeded in</p>
+
+<ol>
+  <li>rendering text</li>
+  <li>supporting a rubust animation framework</li>
+  <li>supporting multiple ttf fonts by abstracting away spacing/kerning problems</li>
+</ol>
+
+<p>The file that is linked above contains most of the rendering code. I included
+this because project because there was a lot of precise computations that needed
+to be performed to render the text correctly and I heavily profiled it for performance.</p>
+
+<p><br /></p>
+
+<h3 id="python"><strong>Python</strong></h3>
+
+<hr />
+
+<h5 id="encrypted-cloud-storage-wrapper">Encrypted Cloud Storage Wrapper</h5>
+
+<p>This is a closed-source wrapper around popular cloud-based storage platforms
+(Google Drive, OneDrive, DropBox) which performed client-side encryption and
+decrytion automatically, so only your encrypted files were stored on the cloud.</p>
+
+<hr />
+
+<h5 id="safespots">SafeSpots</h5>
+
+<p>Safespots was a web and android application that allowed users to find the safest walking
+routes. This was done in a fashion similar to Google Maps, however we pulled data from
+crime reports APIs to help us determine the fastest/safest route. The API was written in
+JS, with interop into a python driver to run the Cassandra cluster it was deployed on.</p>
+
+<p><a href="https://github.com/jpadkins/SafeSpotBackup/tree/master/safespots">Github link</a></p>
+
+<p><br /></p>
+
+<h3 id="elixir"><strong>Elixir</strong></h3>
+
+<hr />
+
+<h5 id="pragmatism-online">Pragmatism Online</h5>
+
+<p><a href="https://github.com/jpadkins/ElixirClassFinal">Github link</a></p>
+
+<p><a href="https://github.com/jpadkins/ElixirClassFinal/blob/master/mud_server/web/channels/room_channel.ex">File with most of the room/socket logic</a></p>
+
+<p><a href="https://github.com/jpadkins/ElixirClassFinal/tree/master/mud_server/lib/mud_server">Directory with most of the game logic</a></p>
+
+<p><a href="https://github.com/jpadkins/ElixirClassFinal/blob/master/mud_client/lib/mud_client/socket_client.ex">File implemeting the terminal client</a></p>
+
+<p><a href="https://github.com/jpadkins/ElixirClassFinal/blob/master/mud_server/web/static/js/chat.js">File containing web interface implementation</a></p>
+
+<p>A simple MUD with both a web and terminal client. Implemented as the
+final project for the Elixir/Phoenix course I took at SMU in the Fall
+of 2016, taught by David Thomas the Pragmatic Programmer.</p>
+
+<p><br /></p>
+
+<h3 id="ruby"><strong>Ruby</strong></h3>
+
+<hr />
+
+<p>I have shipped two medium and one large scale Rails application, one of which I was
+the sole developer. However, all of them are closed-source, so instead I will post the
+Gemfile from the API of my recent App, to show which libraries I am most familiar with.</p>
+
+<p><a href="https://github.com/jpadkins/jpadkins.github.io/tree/master/_misc/Gemfile.rb">Gemfile</a></p>
+
+<p><br /></p>
+
+<p>Other languages I am proficient in are Rust (which I’ve contributed to), Lua, and PHP.</p>
 
           <div class="post__tags">
             
@@ -244,17 +377,17 @@ Django site to a static site generated via Jekyll.</p>
 
 <ul class="share-list">
   <li>
-    <a class="share-list__link" href="https://twitter.com/intent/tweet?text=Moving to Jekyll&url=http://jpa.io/2016/12/18/moving-to-jekyll/&via=JacobPaulAdkins&related=JacobPaulAdkins" rel="nofollow" target="_blank" title="Share on Twitter">
+    <a class="share-list__link" href="https://twitter.com/intent/tweet?text=Examples of Work&url=http://jpa.io/2017/02/11/examples-of-work/&via=JacobPaulAdkins&related=JacobPaulAdkins" rel="nofollow" target="_blank" title="Share on Twitter">
       <div data-icon="ei-sc-twitter" data-size="s" class="share-list__icon share-list__icon--twitter"></div>
     </a>
   </li>
   <li>
-    <a class="share-list__link" href="https://facebook.com/sharer.php?u=http://jpa.io/2016/12/18/moving-to-jekyll/" rel="nofollow" target="_blank" title="Share on Facebook">
+    <a class="share-list__link" href="https://facebook.com/sharer.php?u=http://jpa.io/2017/02/11/examples-of-work/" rel="nofollow" target="_blank" title="Share on Facebook">
     <div data-icon="ei-sc-facebook" data-size="s" class="share-list__icon share-list__icon--facebook"></div>
     </a>
   </li>
   <li>
-    <a class="share-list__link" href="https://plus.google.com/share?url=http://jpa.io/2016/12/18/moving-to-jekyll/" rel="nofollow" target="_blank" title="Share on Google+">
+    <a class="share-list__link" href="https://plus.google.com/share?url=http://jpa.io/2017/02/11/examples-of-work/" rel="nofollow" target="_blank" title="Share on Google+">
     <div data-icon="ei-sc-google-plus" data-size="s" class="share-list__icon share-list__icon--google"></div>
     </a>
   </li>
@@ -285,7 +418,7 @@ Django site to a static site generated via Jekyll.</p>
 
 <script>
   var disqus_config = function () {
-    this.page.url = "http://jpa.io/2016/12/18/moving-to-jekyll/";
+    this.page.url = "http://jpa.io/2017/02/11/examples-of-work/";
   };
 
   (function() {

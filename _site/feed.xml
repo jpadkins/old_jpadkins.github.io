@@ -5,9 +5,163 @@
     <description></description>
     <link>http://jpa.io/</link>
     <atom:link href="http://jpa.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Jan 2017 22:21:22 -0600</pubDate>
-    <lastBuildDate>Thu, 05 Jan 2017 22:21:22 -0600</lastBuildDate>
+    <pubDate>Sun, 12 Feb 2017 01:52:10 -0600</pubDate>
+    <lastBuildDate>Sun, 12 Feb 2017 01:52:10 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Examples of Work</title>
+        <description>&lt;h4 id=&quot;centerhello-the-following-are-a-few-examples-of-my-workcenter&quot;&gt;&lt;center&gt;Hello! The following are a few examples of my work:&lt;/center&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ios&quot;&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;snapchat-filters-implementation&quot;&gt;Snapchat Filters Implementation&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Lorsen/ImageLab/tree/Lab_4&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=4eWPFaA1nwE&quot;&gt;Video demonstration&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is an implementation of the superimposed-graphics-over-a-tracked-face
+effect from mobile apps such as Snapchat. It’s not fancy, however.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;ml-boxing-app-boxfit&quot;&gt;ML Boxing App “BoxFit”&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Lorsen/BoxFit/tree/master/BoxFit&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sadly, I do not have a video demonstration of this. BoxFit allowed its users
+to perfect four boxing moves: Jab, Uppercut, Block and Hook, but comparing their
+arm movements while wearing their smartphone on a sports strap on their arm to
+a model we had trained. The server side was implemented with Python Tornado as
+the server and scikit-learn to handle the training.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;c&quot;&gt;&lt;strong&gt;C&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;research-on-kernel-space-io-performance&quot;&gt;Research on Kernel Space I/O Performance&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/KernelSpaceIO&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For research in my Operating Systems class, I wanted to find out just how much slower
+(or faster?) I/O operations would be from the kernelspace, so I wrote the same I/O program
+as closely as I could in both Modern C and a Kernel Module and benchmarked them.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;c-1&quot;&gt;&lt;strong&gt;C++&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;tsdc-parser&quot;&gt;TSDC Parser&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/sdc_parser&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This small program was made to run continuously on the machines
+which operated industrial printers. I included it on here because&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;It is coupled tightly with sqlite3’s C-api, but I made use of modern
+C++11 techniques to improve code visability.&lt;/li&gt;
+  &lt;li&gt;It was written to be maintainable by another individual who would
+come onboard long after I had left and whose skill level I did not know,
+so I described very clearly what action every line performed. (This was
+before I was familiar with in-code-documentation generators)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;graphical-terminal-emulator&quot;&gt;Graphical Terminal Emulator&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/GlyphRendererEngine/blob/master/old/src_old4/GLYF/Renderer.hpp&quot;&gt;Github link to render logic file&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This was an old attempt at creating a graphical terminal emulator. I wanted
+to make a terminal emulator with OpenGL that would support flashy text effects,
+and when I put the project down I had succeeded in&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;rendering text&lt;/li&gt;
+  &lt;li&gt;supporting a rubust animation framework&lt;/li&gt;
+  &lt;li&gt;supporting multiple ttf fonts by abstracting away spacing/kerning problems&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The file that is linked above contains most of the rendering code. I included
+this because project because there was a lot of precise computations that needed
+to be performed to render the text correctly and I heavily profiled it for performance.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;python&quot;&gt;&lt;strong&gt;Python&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;encrypted-cloud-storage-wrapper&quot;&gt;Encrypted Cloud Storage Wrapper&lt;/h5&gt;
+
+&lt;p&gt;This is a closed-source wrapper around popular cloud-based storage platforms
+(Google Drive, OneDrive, DropBox) which performed client-side encryption and
+decrytion automatically, so only your encrypted files were stored on the cloud.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;safespots&quot;&gt;SafeSpots&lt;/h5&gt;
+
+&lt;p&gt;Safespots was a web and android application that allowed users to find the safest walking
+routes. This was done in a fashion similar to Google Maps, however we pulled data from
+crime reports APIs to help us determine the fastest/safest route. The API was written in
+JS, with interop into a python driver to run the Cassandra cluster it was deployed on.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/SafeSpotBackup/tree/master/safespots&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;elixir&quot;&gt;&lt;strong&gt;Elixir&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;pragmatism-online&quot;&gt;Pragmatism Online&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/ElixirClassFinal&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/ElixirClassFinal/blob/master/mud_server/web/channels/room_channel.ex&quot;&gt;File with most of the room/socket logic&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/ElixirClassFinal/tree/master/mud_server/lib/mud_server&quot;&gt;Directory with most of the game logic&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/ElixirClassFinal/blob/master/mud_client/lib/mud_client/socket_client.ex&quot;&gt;File implemeting the terminal client&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/ElixirClassFinal/blob/master/mud_server/web/static/js/chat.js&quot;&gt;File containing web interface implementation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A simple MUD with both a web and terminal client. Implemented as the
+final project for the Elixir/Phoenix course I took at SMU in the Fall
+of 2016, taught by David Thomas the Pragmatic Programmer.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ruby&quot;&gt;&lt;strong&gt;Ruby&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I have shipped two medium and one large scale Rails application, one of which I was
+the sole developer. However, all of them are closed-source, so instead I will post the
+Gemfile from the API of my recent App, to show which libraries I am most familiar with.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/jpadkins.github.io/tree/master/_misc/Gemfile.rb&quot;&gt;Gemfile&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Other languages I am proficient in are Rust (which I’ve contributed to), Lua, and PHP.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Feb 2017 00:00:00 -0600</pubDate>
+        <link>http://jpa.io/2017/02/11/examples-of-work/</link>
+        <guid isPermaLink="true">http://jpa.io/2017/02/11/examples-of-work/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Moving to Jekyll</title>

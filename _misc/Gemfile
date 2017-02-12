@@ -1,0 +1,106 @@
+source 'https://rubygems.org'
+
+ruby '2.3.1'
+
+gem 'rails', '5.0.0.1'
+
+# Database
+gem 'mysql2', '>= 0.3.13', '< 0.5'
+gem 'puma', '~> 3.2.0'
+
+# Authentication
+gem 'devise', '~> 4.2.0'
+
+# Authorization
+gem 'pundit', '~> 1.1.0'
+
+# Jobs
+gem 'sidekiq', '~> 4.1.2'
+gem "sidekiq-cron", "~> 0.4.0"
+gem 'sinatra', '2.0.0.beta2', require: false
+
+# Cache
+gem 'redis-rails', '~> 5.0.1'
+gem 'redis-mutex', '~> 4.0'
+
+# Email
+gem 'mailgun_rails', '~> 0.8'
+
+# logs
+gem 'lograge', '~> 0.4.1'
+
+# Uploads
+# contains the multiple file upload feature
+gem 'google-api-client', '<0.9'
+gem 'fog-google', '~> 0.4.0'
+gem 'mime-types', '~> 3.0'
+
+# Media
+gem 'letter_avatar', '~> 0.1.11'
+gem 'mini_magick', '~> 4.5.1'
+gem 'rubyzip', '~> 1.2.0', require: false
+
+# Pagination
+gem 'kaminari', '~> 0.17.0'
+gem 'api-pagination', '~> 4.3'
+
+# (de)Serializers
+gem 'active_model_serializers', '~> 0.10.2'
+gem 'smarter_csv'
+
+# Model History Saving
+gem 'paper_trail', '~> 5.2.2'
+gem 'paper_trail-globalid'
+
+# Scraping
+gem 'selenium-webdriver', '~> 2.53.3'
+gem 'headless', '~> 2.2.3'
+gem 'mechanize', '~> 2.1.1'
+
+# Better Currency Handling
+gem 'money-rails','~> 1.6'
+
+# Error Monitoring
+gem 'scout_apm'
+
+group :production, :staging do
+  gem 'rack-ssl-enforcer'
+  gem 'rails_12factor'
+end
+
+group :development do
+  gem 'letter_opener'
+  gem 'guard', '>= 2.2.2', require: false
+  gem 'guard-livereload',  require: false
+  gem 'rack-livereload'
+  gem 'guard-bundler'
+  gem 'guard-rails'
+  gem 'guard-rspec'
+  gem 'guard-cucumber'
+  gem 'hub', :require=>nil
+  gem 'spring-commands-rspec'
+	gem 'annotate', '~> 2.7.0'
+	gem 'terminal-notifier-guard'
+  gem 'web-console', '~> 2.0'
+  gem 'pry', '~> 0.10.3'
+  gem 'pry-rails', '~> 0.3.4'
+  gem 'pry-byebug', '~> 3.4.0'
+  gem 'active_record_query_trace'
+end
+
+group :development, :test do
+  gem 'faker'
+  gem 'factory_girl_rails', '~> 4.7'
+  gem 'byebug'
+  gem 'spring'
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'database_cleaner'
+  gem 'cucumber-rails', require: false
+  gem 'pundit-matchers', '~> 1.0.2'
+  gem 'codeclimate-test-reporter', require: nil
+  gem 'rspec_junit_formatter', '~> 0.2.3'
+  gem 'rspec-sidekiq', '~> 2.2.0'
+end
