@@ -1,0 +1,12 @@
+use_frameworks!
+target ‘BoxFit’ do
+  pod 'SwipeView'
+  pod ‘SwiftGifOrigin’
+  pod 'SwiftyJSON'
+  pod ‘Alamofire’
+  pod ‘KDCircularProgress’
+  pod 'Charts'
+  pod 'GoogleMaps'
+  pod 'GoogleAPIClientForREST'
+  pod 'PokeModal'
+end

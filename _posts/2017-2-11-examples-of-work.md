@@ -14,7 +14,6 @@ image: '/images/posts/workspace.png'
 * * *
 
 ##### Snapchat Filters Implementation
-
 [Github link](https://github.com/Lorsen/ImageLab/tree/Lab_4)
 
 [Video demonstration](https://www.youtube.com/watch?v=4eWPFaA1nwE)
@@ -25,8 +24,9 @@ effect from mobile apps such as Snapchat. It's not fancy, however.
 - - -
 
 ##### ML Boxing App "BoxFit"
-
 [Github link](https://github.com/Lorsen/BoxFit/tree/master/BoxFit)
+
+[Link to motion data capture/processing](https://github.com/jpadkins/BoxFitSimpleTrainingApp/blob/master/BoxFitTrainingApp/MotionHandler.swift)
 
 Sadly, I do not have a video demonstration of this. BoxFit allowed its users
 to perfect four boxing moves: Jab, Uppercut, Block and Hook, but comparing their
@@ -36,6 +36,12 @@ the server and scikit-learn to handle the training.
 
 - - -
 
+Other iOS apps I've worked on include 
+
+1. an app that finds the user's bpm from their finger when placed over the camera
+2. an app that uses an inaudible tone to determine distance
+3. a feature-rich social platform aimed at students
+
 <br>
 
 ### **C**
@@ -43,7 +49,6 @@ the server and scikit-learn to handle the training.
 * * *
 
 ##### Research on Kernel Space I/O Performance
-
 [Github link](https://github.com/jpadkins/KernelSpaceIO)
 
 For research in my Operating Systems class, I wanted to find out just how much slower
@@ -101,13 +106,19 @@ decrytion automatically, so only your encrypted files were stored on the cloud.
 * * *
 
 ##### SafeSpots
+[Github link](https://github.com/jpadkins/SafeSpotBackup/tree/master/safespots)
 
 Safespots was a web and android application that allowed users to find the safest walking
 routes. This was done in a fashion similar to Google Maps, however we pulled data from
 crime reports APIs to help us determine the fastest/safest route. The API was written in
 JS, with interop into a python driver to run the Cassandra cluster it was deployed on.
 
-[Github link](https://github.com/jpadkins/SafeSpotBackup/tree/master/safespots)
+* * *
+
+##### My Old Blog
+[Github link](https://github.com/jpadkins/jpa.io/tree/master/blog)
+
+My old blog, written for Django 1.9 and deployed on Apache with WSGI.
 
 <br>
 
@@ -116,7 +127,6 @@ JS, with interop into a python driver to run the Cassandra cluster it was deploy
 * * *
 
 ##### Pragmatism Online
-
 [Github link](https://github.com/jpadkins/ElixirClassFinal)
 
 [File with most of the room/socket logic](https://github.com/jpadkins/ElixirClassFinal/blob/master/mud_server/web/channels/room_channel.ex)
@@ -137,11 +147,11 @@ of 2016, taught by David Thomas the Pragmatic Programmer.
 
 * * *
 
-I have shipped two medium and one large scale Rails application, one of which I was
-the sole developer. However, all of them are closed-source, so instead I will post the
-Gemfile from the API of my recent App, to show which libraries I am most familiar with.
+I have experience with three large Rails applications, one of which was just an API.
+However, all of them are closed-source, so instead I will post the Gemfile from the API
+of my recent App, to show which libraries I am most familiar with.
 
-[Gemfile](https://github.com/jpadkins/jpadkins.github.io/tree/master/_misc/Gemfile.rb)
+[Gemfile](https://github.com/jpadkins/jpadkins.github.io/blob/master/_misc/Gemfile)
 
 <br>
 

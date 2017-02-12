@@ -5,8 +5,8 @@
     <description></description>
     <link>http://jpa.io/</link>
     <atom:link href="http://jpa.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Feb 2017 01:52:10 -0600</pubDate>
-    <lastBuildDate>Sun, 12 Feb 2017 01:52:10 -0600</lastBuildDate>
+    <pubDate>Sun, 12 Feb 2017 10:41:56 -0600</pubDate>
+    <lastBuildDate>Sun, 12 Feb 2017 10:41:56 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -19,7 +19,6 @@
 &lt;hr /&gt;
 
 &lt;h5 id=&quot;snapchat-filters-implementation&quot;&gt;Snapchat Filters Implementation&lt;/h5&gt;
-
 &lt;p&gt;&lt;a href=&quot;https://github.com/Lorsen/ImageLab/tree/Lab_4&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=4eWPFaA1nwE&quot;&gt;Video demonstration&lt;/a&gt;&lt;/p&gt;
@@ -30,8 +29,9 @@ effect from mobile apps such as Snapchat. It’s not fancy, however.&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;h5 id=&quot;ml-boxing-app-boxfit&quot;&gt;ML Boxing App “BoxFit”&lt;/h5&gt;
-
 &lt;p&gt;&lt;a href=&quot;https://github.com/Lorsen/BoxFit/tree/master/BoxFit&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/BoxFitSimpleTrainingApp/blob/master/BoxFitTrainingApp/MotionHandler.swift&quot;&gt;Link to motion data capture/processing&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Sadly, I do not have a video demonstration of this. BoxFit allowed its users
 to perfect four boxing moves: Jab, Uppercut, Block and Hook, but comparing their
@@ -41,6 +41,14 @@ the server and scikit-learn to handle the training.&lt;/p&gt;
 
 &lt;hr /&gt;
 
+&lt;p&gt;Other iOS apps I’ve worked on include&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;an app that finds the user’s bpm from their finger when placed over the camera&lt;/li&gt;
+  &lt;li&gt;an app that uses an inaudible tone to determine distance&lt;/li&gt;
+  &lt;li&gt;a feature-rich social platform aimed at students&lt;/li&gt;
+&lt;/ol&gt;
+
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;c&quot;&gt;&lt;strong&gt;C&lt;/strong&gt;&lt;/h3&gt;
@@ -48,7 +56,6 @@ the server and scikit-learn to handle the training.&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;h5 id=&quot;research-on-kernel-space-io-performance&quot;&gt;Research on Kernel Space I/O Performance&lt;/h5&gt;
-
 &lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/KernelSpaceIO&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For research in my Operating Systems class, I wanted to find out just how much slower
@@ -110,13 +117,19 @@ decrytion automatically, so only your encrypted files were stored on the cloud.&
 &lt;hr /&gt;
 
 &lt;h5 id=&quot;safespots&quot;&gt;SafeSpots&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/SafeSpotBackup/tree/master/safespots&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Safespots was a web and android application that allowed users to find the safest walking
 routes. This was done in a fashion similar to Google Maps, however we pulled data from
 crime reports APIs to help us determine the fastest/safest route. The API was written in
 JS, with interop into a python driver to run the Cassandra cluster it was deployed on.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/SafeSpotBackup/tree/master/safespots&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;my-old-blog&quot;&gt;My Old Blog&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/jpa.io/tree/master/blog&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My old blog, written for Django 1.9 and deployed on Apache with WSGI.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -125,7 +138,6 @@ JS, with interop into a python driver to run the Cassandra cluster it was deploy
 &lt;hr /&gt;
 
 &lt;h5 id=&quot;pragmatism-online&quot;&gt;Pragmatism Online&lt;/h5&gt;
-
 &lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/ElixirClassFinal&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/ElixirClassFinal/blob/master/mud_server/web/channels/room_channel.ex&quot;&gt;File with most of the room/socket logic&lt;/a&gt;&lt;/p&gt;
@@ -146,11 +158,11 @@ of 2016, taught by David Thomas the Pragmatic Programmer.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;I have shipped two medium and one large scale Rails application, one of which I was
-the sole developer. However, all of them are closed-source, so instead I will post the
-Gemfile from the API of my recent App, to show which libraries I am most familiar with.&lt;/p&gt;
+&lt;p&gt;I have experience with three large Rails applications, one of which was just an API.
+However, all of them are closed-source, so instead I will post the Gemfile from the API
+of my recent App, to show which libraries I am most familiar with.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/jpadkins.github.io/tree/master/_misc/Gemfile.rb&quot;&gt;Gemfile&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jpadkins/jpadkins.github.io/blob/master/_misc/Gemfile&quot;&gt;Gemfile&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
